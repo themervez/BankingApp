@@ -2,9 +2,12 @@
 using BankingApp.BusinessLayer.Configuration.Validation.CustomerValidation;
 using BankingApp.BusinessLayer.Configuration.Validation.ProcessValidation;
 using BankingApp.BusinessLayer.Features.Abstract;
+using BankingApp.BusinessLayer.Features.Abstract.UowAbstract;
 using BankingApp.BusinessLayer.Features.Concrete;
+using BankingApp.BusinessLayer.Features.Concrete.UowConcrete;
 using BankingApp.DAL.Abstract;
 using BankingApp.DAL.EF;
+using BankingApp.DAL.UnitOfWork;
 using BankingApp.DTOLayer.DTOs.AppUserDTOs;
 using BankingApp.DTOLayer.DTOs.CustomerDTOs;
 using BankingApp.EntityLayer.Concrete;
@@ -26,6 +29,12 @@ namespace BankingApp.BusinessLayer.Configuration.DIContainer
             services.AddScoped<IProcessService, ProcessService>();
             services.AddScoped<IProcessDAL, EFProcessDAL>();
             services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IAccountDAL, EFAccountDAL>();
+            services.AddScoped<IAccountService, AccountService>();
+
+            services.AddScoped<IProcessDetailDAL, EFProcessDetailDAL>();
+            services.AddScoped<IProcessDetailService, ProcessDetailService>();
+            services.AddScoped<IUnitOfWorkDAL, UnitOfWorkDAL>();
         }
         public static void CustomizeValidator(this IServiceCollection services)
         {

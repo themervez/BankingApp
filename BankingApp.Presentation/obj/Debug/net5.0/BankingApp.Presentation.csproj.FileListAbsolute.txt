@@ -180,3 +180,7 @@ C:\Users\Merve\Documents\GitHub\BankingApp\BankingApp.Presentation\bin\Debug\net
 C:\Users\Merve\Documents\GitHub\BankingApp\BankingApp.Presentation\obj\Debug\net5.0\Razor\Views\Login\ForgotPassword.cshtml.g.cs
 C:\Users\Merve\Documents\GitHub\BankingApp\BankingApp.Presentation\obj\Debug\net5.0\Razor\Views\Register\EmailConfirmed.cshtml.g.cs
 C:\Users\Merve\Documents\GitHub\BankingApp\BankingApp.Presentation\obj\Debug\net5.0\Razor\Views\Login\ResetPassword.cshtml.g.cs
+C:\Users\Merve\Documents\GitHub\BankingApp\BankingApp.Presentation\bin\Debug\net5.0\HtmlAgilityPack.dll
+C:\Users\Merve\Documents\GitHub\BankingApp\BankingApp.Presentation\obj\Debug\net5.0\Razor\Areas\Customer\Views\Currency\Index.cshtml.g.cs
+C:\Users\Merve\Documents\GitHub\BankingApp\BankingApp.Presentation\obj\Debug\net5.0\Razor\Areas\Customer\Views\Customer\Index.cshtml.g.cs
+C:\Users\Merve\Documents\GitHub\BankingApp\BankingApp.Presentation\obj\Debug\net5.0\Razor\Areas\Customer\Views\Account\MoneyTransfer.cshtml.g.cs

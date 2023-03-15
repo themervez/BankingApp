@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System;
 using BankingApp.DTOLayer.DTOs.CustomerDTOs;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BankingApp.Presentation.Areas.Customer.Controllers
 {

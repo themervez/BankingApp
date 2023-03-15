@@ -17,6 +17,8 @@ namespace BankingApp.DAL.DbContexts
         {
             _configuration = configuration;
         }
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<ProcessDetail> ProcessDetails { get; set; }
         //public DbSet<Customer> Customers { get; set; }
         //public DbSet<Employee> Employees { get; set; }
         public DbSet<Process> Processes { get; set; }

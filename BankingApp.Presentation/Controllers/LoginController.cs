@@ -57,7 +57,7 @@ namespace BankingApp.Presentation.Controllers
                         {
                             return Redirect(TempData["ReturnUrl"].ToString());//Kullancının Login sayfasına gitmeden önceki sayfaya geri dönmesini sağladık
                         }
-                        return RedirectToAction("Index", "Account", new { area = "Customer" });//Change it
+                        return RedirectToAction("Index", "Customer", new { area = "Customer" });//Change it
                     }
                     else
                     {

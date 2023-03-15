@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ONi0Ku3p4aB/QPxv4cdldJ2jlqXo081iNWbIb2xeYBb3H5uY/l6Q8adPM2RaAE6h/NkC92MQxD4TJCc54/fIig==",
+  "dgSpecHash": "JI6a2CYWXoqudQvz/YgwjCpgQETSXlsstcyasA0W/4zlNDzEhv6EAA/0NdKyGF5HwZNwJTqRa+CUCL/WSy8CXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Merve\\Documents\\GitHub\\BankingApp\\BankingApp.Presentation\\BankingApp.Presentation.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Merve\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\Merve\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "C:\\Users\\Merve\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\Merve\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\Merve\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Merve\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Merve\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
